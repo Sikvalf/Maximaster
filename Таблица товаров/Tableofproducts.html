@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица товаров</title>
+    <link rel="stylesheet" href="Tableofproducts.css">
+</head>
+<body>
+<div id="price-filter">
+    Цена от: <input type="number" id="price-from" value="0">
+    до: <input type="number" id="price-to" value="10000">
+    <button id="apply-filter">Обновить</button>
+</div>
+
+<table id="product-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th>Количество</th>
+            <th>Цена за единицу</th>
+            <th>Сумма</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<div id="message"></div>
+<div class="loader" id="loader">Загрузка данных...</div>
+
+<script src="Tableofproducts.js">
+</script>
+</body>
+</html>

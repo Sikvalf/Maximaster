@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="Order.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=913c846b-8db3-4642-b127-3a771adbcd28&lang=ru_RU" type="text/javascript">
+    </script>
+    <script type="text/javascript" src="ymaps.js">
+      </script>
+    </head>
+    <body>
+      <form id="orderForm">
+        <label for="fio"> </label>
+        <input type="text" placeholder="ФИО" id="fio">
+
+        <label for="phone"> </label>
+        <input type="text" placeholder="Телефон" id="phone">
+
+        <label for="email"> </label>
+        <input type="text" placeholder="Email" id="email">
+
+        <div id="map" ></div>
+
+        <label for="comment"> </label>
+        <textarea placeholder="Комментарий к заказу (макс. 500 символов)" id="comment"></textarea>
+</form>
+<input type="submit" id="submit" value="Отправить" style="margin-left: 150px;">
+  <script src="Order.js">
+    </script>
+</body>
+</html>

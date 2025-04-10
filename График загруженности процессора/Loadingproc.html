@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>График загруженности процессора</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="LoadingProc.css">
+</head>
+<body>
+<canvas id="myChart" width="400" height="200"></canvas>
+<div id="loader">Загрузка...</div>
+<div id="request-stats">
+    Всего запросов: <span id="total-requests"> 0</span><br>
+    Ошибочных запросов: <span id="error-requests">0</span> (<span id="error-percentage">0%</span>)
+</div>
+<script src="Loadingproc.js">
+</script>
+</body>
+</html>

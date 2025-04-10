@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Электронная таблица</title>
+  <link rel="stylesheet" href="ElectronicTable.css"> 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div style="display: flex;">
+    <table id="myTable">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <div class="button-column">
+      <button onclick="addColumntable()">+</button>
+      <button onclick="removeColumntable()">-</button>
+    </div>
+  </div>
+
+  <div class="Row-buttons">
+    <button onclick="addRowtable()">+</button>
+    <button onclick="removeRowtable()">-</button>
+  </div>
+
+  <script src="ElectronicTable.js">
+  </script>
+
+</body>
+</html>
