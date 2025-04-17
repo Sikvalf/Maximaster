@@ -1,0 +1,22 @@
+ .error {
+            color: red;
+        }
+        select, input {
+            width: 100%; 
+            padding: 10px; 
+            box-sizing: border-box; 
+            margin-bottom: 15px;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            margin-left: 150px; 
+            margin-top: 50px; 
+            width: 300px; 
+        }
+        button {
+            align-self: center; 
+            width: 150px; 
+            padding: 10px 20px; 
+        }
