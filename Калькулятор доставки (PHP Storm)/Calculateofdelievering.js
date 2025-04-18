@@ -130,7 +130,7 @@
                     }
                 }
 
-                document.getElementById('result').innerHTML = `<p>Стоимость доставки в город ${city} посылки весом ${weightNumber} кг равна ${result.price} руб.</p>`;
+                document.getElementById('result').innerHTML = `<p>Стоимость доставки в город ${city} груза весом ${weightNumber} кг равна ${result.price} руб.</p>`;
                 return; 
 
             } catch (error) {
